@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header starts here */
+
+.header{
+    position: absolute;
+        top: 0;
+        left: 0;
+    background-color: #1D2A35;
+    width: 100%;
+    height: 56px;
+    display:flex;
+    justify-content: space-between;
+}
+/* linking div with image */
+
+.logo-image{
+    position: relative;
+    width: 38px;
+    height: 36px;
+    padding: 8px 16px;
+}
+.logo-image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+}
+/* logo with hover */
+.logo-image img:hover{
+    background-color: #c3ccd5;
+}
+.side-one-container{
+    height: 56px;
+    display: flex;
+}
+/* logo image finish */
+
+/* navigation bar in header strats here */
+
+.chip-items a,i{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-chips{
+    display: flex;
+    height: 56px;
+}
+.chip-items{
+    padding: 16px;
+}
+
+.chip-items:hover{
+background-color: #04AA6D;
+cursor: pointer;
+}
+/* navbar ends here */
+
+/* search box with glass and dark mode starts here */
+
+
+.search-box form
+{
+      border-radius: 20px;
+    width: 182px;
+}
+.search-box input[type=text]{
+    border-radius: 20px;
+    padding: 10px 8px;
+}
+.search-box{
+    position: relative;
+    margin-top: 7px;
+}
+.mag-glass{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+        right: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+}
+.mag-glass:hover{
+    background-color: #e1e9f0;
+}
+.search-box [class*=line]{
+         color: #1d1d1d;
+}
+i[class*=arrow]
+{
+    margin-top: 19px;
+        margin-left: 0px;
+}
+
+.dark-mode {
+    margin-top: 15px;
+    margin-left: 13px;
+    height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+}
+.dark-mode:hover{
+background-color: #7d8891;
+}
+
+/* Left side complete */
+
+/* Right portion start here */
+
+.jobs-wrapper{ /*right portion display flex*/
+    display: flex;
+   
+    justify-content: flex-end;
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.profile-image{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 17px;
+   
+}
+/* To make right postion of header dsiplay flex */
+.three-items-common{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.three-items-common a,i{
+    margin: 3px;
+}
+.two-items{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+     
+}
+/* To make right postion of header dsiplay flex finish */
+
+
+/* To change colour of right portion */
+.three-item-content i{
+    color: #9763F6;
+}
+.three-item-content a{
+    color: #fff;
+    text-decoration: none;
+}
+/* To change colour of right portion finish */
+
+.three-item-content{
+width: 82px;
+border-radius: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.four{
+    width: 120px;
+}
+/* To hover 3 content items */
+.three-item-content:hover{
+background-color: #696969;
+}
+/*To hover 2 content item*/
+
+.two-items a:hover{
+    background-color: #696969;
+}
+.my-w3schools{
+    width: 120px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+}
+.my-w3schools:hover{
+    background-color: #696969;
+}
+.profile-image:hover{
+    background-color: #696969;
+  
+}
+
+/* header completed */
+
+/* Body starts here */
+
+.body-chip-items{
+    width: 100%;
+    position: absolute;
+    top: 56px;
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.item{
+    padding: 6px;
+    
+  
+}
+.item a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+.item:hover{
+    background-color: #1d1d1d;
+}
+
+/* Body after position starts here */
+.find-jobs-body{
+    background-color: #1D2A35;
+   
+}
+.find-jobs-body{
+margin-top: 86px;
+    padding-top: 115px;
+    position: relative;
+}
+.page-1-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.page-1-wrapper h1{
+    font-size: 62px;
+font-weight: 700;
+    color: #fff;
+    
+}
+.find-jobs-body h2{
+    font-size: 25px;
+    color: yellow;
+}
+.page-1-wrapper p{
+    color: #fff;
+    letter-spacing: 1.5px;
+   
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.job-waiting-list{
+    margin:0px 20px 0px;
+    padding-top: 5px;
+}
+.wrapper .job-waiting-list{
+    width: 21%;
+    height: 4vh;
+    border-radius: 18px;
+}
+.job-waiting-list a{
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper .jobb{
+    background-color: rgb(23, 177, 23);  
+    
+}
+.wrapper .jobb:hover{
+    background-color: green;
+}
+.text-items{
+    line-height: 60px;
+}
+.hire{
+    border: 2px solid violet;
+    padding-top: 3px;
+}
+.hire:hover{
+    background-color: violet;
+}
+
+/* 2nd page starts */
+
+.left-part h1{
+    font-weight: 700px;
+        color: #fff;
+        font-size: 62px;
+}
+.left-part p{
+    color: #fff;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+.left-part .button{
+    background-color: #04AA6D;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-right: 220px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 40px;
+}
+.left-part .button:hover{
+background-color: green;
+}
+.left-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-page{
+    display: flex;
+    margin-top: 80px;
+}
+.right-image img{
+width: 50vw;
+height: 72vh;
+margin-right: 50px;
+}
+/* 3rd page starts here */
+.third-page{
+    display: flex;
+    
+    justify-content: center;
+}
+.left-part{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 490px;
+    margin-top: 50px;
+}
+.box1{
+    border: 2px solid #696969;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 15px;
+    width: 47%;
+    height:35vh;
+    height: 32vh;
+    text-wrap: nowrap;
+    
+    margin: 7px;
+}
+.box1 h3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 25px;
+}
+.box1 p{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.right-part img{
+    width: 30vw;
+    height: 70vh;
+    margin-right: 138px;
+    margin-top: 190px;
+}
+.header-part{
+    margin-right: 80px;
+}
+
+/* fourth page starts here */
+
+.fourth-item2 .item{
+    border: 2px solid #696969;
+   width: 250px;
+   height: 35vh;
+   border-radius: 7%;
+   color: #fff;
+   text-wrap: nowrap;
+}
+.fourth-page .item img,h3,p{
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.fourth-page .item p{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.fourth-page h1{
+    font-weight: 700px;
+        color: #fff;
+        font-size: 62px;
+}
+.fourth-item2{
+    display: flex;
+    justify-content: center;
+   align-self:flex-end ;
+   margin-top: 50px;
+}
+
+.fourth-item2 .item2{
+    margin-top: 75px;
+}
+.fourth-item2 .item3{
+    margin-top: 32px;
+}
+.fourth-item2 .item{
+    margin-left: 9px;
+}
+.fourth-page h1{
+    margin-left: 240px;
+}
+.fourth-page{
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+/* 5-th page start */
+
+
+
+
+
+.fifth-page h1{
+    font-size: 62px;
+        font-weight: 700;
+        color: #fff;
+}
+.fifth-page h3{
+    color: #fff;
+}
+.fifth-page h2{
+    color: #FFF4A3;
+}
+.fifth-page-button{
+    width: 140px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #04AA6D;
+    border-radius: 20px;
+}
+.fifth-page-button a{
+    color: #fff;
+    text-decoration: none;
+}
+.fifth-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.fifth-page h1,h3,h2{
+    margin-bottom: 20px;
+}
+/* Footer starts here */
+
+.footer-1 .image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+}
+.footer-1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: 100%;
+}
+.footer-1 img:hover{
+    background-color: #e1e9f0;
+}
+.footer-1{
+    display: flex;
+    justify-content: center;background-color: #06131e;
+}
+.footer-1 a{
+    color: #FFF4A3;
+    text-transform: uppercase;
+    margin: 40px;
+    text-decoration: none;
+}
+.footer-1 a:hover{
+text-decoration:underline;
+
+}
+.footer-2{
+    display: flex;
+    justify-content: center;
+    margin-right: 73px;
+    margin-top: 20px;
+}
+.footer-2 h3{
+    color: #fff;
+}
+.footer-2 .item-1 a{
+    text-decoration: none;
+    color: #e1e9f0;
+   
+}
+.item-1 ul li {
+    list-style: none;
+}
+.item-1 li a:hover{
+   color: #FFF4A3;
+   
+}
+.footer-2 h3{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.item-1{
+    padding-left: 150px;
+}
+.footer{
+    background-color: #06131e;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-right: 200px;
+    padding-right: 300px;
+
+}
+.footer-3 {
+    display: flex;
+    justify-content: center;
+    margin-right: 665px;
+    margin-top: 73px;
+}
+
+.footer-3 a i:hover{
+color: #FFF4A3;
+}
+.footer-3 h3 a:hover {
+    color: #FFF4A3;
+    text-decoration: underline;
+}
+.footer-3 h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-3 h3{
+    margin: 0;  
+    margin-left: 20px;
+}
+.footer-3 i{
+    margin-left: 8px;
+}
+.footer-4{
+    color: #fff;
+    width: 30vw;
+    margin-left: 150px;
+    text-wrap: nowrap;
+    font-size: small;
+    margin-bottom: 100px;
+}
